@@ -26,12 +26,18 @@
           </clipPath>
         </defs>
       </svg>
-      <h1>Hello World and Welcome to this {{ title }}</h1>
-      <app-hijo [recibehijo]="mensajePadre" (mensajeHijo)="recibirMensaje($event)" />
-      <br>
-      Mensaje recibido desde el hijo: <b>{{mensajeRecibido}}</b>
-      <br>
-      <app-modal-component />
+      <nav>
+        <ul>
+          <li>
+            <a routerLink="/home">Home</a>
+            |
+            <a routerLink="/jobo">jobo</a>
+            |
+            <a routerLink="/contador">contador</a>
+          </li>
+        </ul>
+      </nav>
+      <router-outlet />
     </div>
     <div class="divider" role="separator" aria-label="Divider"></div>
     <div class="right-side">
@@ -77,4 +83,3 @@
   </div>
 </main>
 
-<router-outlet />
