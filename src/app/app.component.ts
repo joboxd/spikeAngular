@@ -12,10 +12,7 @@ import { HijoComponent } from "./hijo/hijo.component";
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  
-
-  title = 'spike-angular by Jobo';
-  //Mensaje que manda desde el padre
+    //Mensaje que manda desde el padre
   mensajePadre: String = "Pasando atributos del padre al hijo";
   //Mensaje que se recibe desde el hijo
   mensajeRecibido?: String;

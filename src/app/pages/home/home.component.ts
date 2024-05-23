@@ -10,7 +10,10 @@ import { HijoComponent } from "../../hijo/hijo.component";
     imports: [ModalComponentComponent, HijoComponent]
 })
 export class HomeComponent {
-  title = 'spike-angular by Jobo';
+  title = 'holissssss';
+
+
+
   //Mensaje que manda desde el padre
   mensajePadre: String = "Pasando atributos del padre al hijo";
   //Mensaje que se recibe desde el hijo
